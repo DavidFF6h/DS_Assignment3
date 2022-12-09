@@ -7,7 +7,7 @@
 std::string ProcessInputStr();
 int ProcessInputInt();
 void InputLoop();
-void Do_IsPanindrome();
+void Do_IsPalindrome();
 
 int main()
 {
@@ -70,7 +70,7 @@ void InputLoop()
 	} while (choice != 1);
 }
 //Collects user input, calls is_palindrome function 
-void Do_IsPanindrome()
+void Do_IsPalindrome()
 {
 	std::cout << "Enter a string to see if it is a palindrome: ";
 	std::string s = ProcessInputStr();
