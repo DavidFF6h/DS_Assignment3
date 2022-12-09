@@ -60,7 +60,7 @@ void InputLoop()
 		choice = ProcessInputInt();
 		//Switch case for choices, each choice calls function to get and pass input into member functions
 		switch (choice) {
-		case 0: Do_IsPanindrome(); break;
+		case 0: Do_IsPalindrome(); break;
 		case 1: return;
 		default: {
 			std::cout << "Input does not correspond to a command." << std::endl;
